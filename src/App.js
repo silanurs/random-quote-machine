@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div id="quote-box">
+        <p id="text">"How wonderful it is that nobody need wait a single moment before starting to improve the world.</p>
+        <p id="author">- Anne Frank</p>
+        <div id="btnContainer">
+        <button type="button">New quote</button>
+        </div>
+        
+      </div>
+      <footer>
+      <p>Copyright &copy; <script>
+document.write({new Date().getFullYear()})
+          </script> Silanurs<a href="https://github.com/silanurs" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-github"></i></a></p>
+          
+
+      </footer>
     </div>
   );
 }
