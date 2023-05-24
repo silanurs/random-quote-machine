@@ -19,11 +19,14 @@ footer{
   height:7vh;
 }
 #quote-box{
-  width:30vw;
+  width:50vw;
   height:fit-content;
   border:1px solid crimson;
   border-radius:5px;
-  padding:1vw;
+  padding-right:4vw;
+  padding-left:4vw;
+  padding-bottom:2vh;
+  padding-top:2vh;
   background-color:#edf6f7;
 
 }
@@ -38,7 +41,7 @@ display:flex;
 justify-content:flex-end;
 }
 button{
-width:7vw;
+width:15vw;
 height:6vh;
 border:none;
 background-color: crimson;
