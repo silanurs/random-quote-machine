@@ -7,7 +7,7 @@
  height:80vh;
 }
 body{
-  background-color:crimson;
+  background-color: crimson;
   font-family:"IM Fell English SC", sans-serif;
 }
 footer{
@@ -21,14 +21,13 @@ footer{
 #quote-box{
   width:50vw;
   height:fit-content;
-  border:1px solid crimson;
   border-radius:5px;
   padding-right:4vw;
   padding-left:4vw;
   padding-bottom:2vh;
   padding-top:2vh;
   background-color:#edf6f7;
-
+  color:crimson;
 }
 #text{
   font-size:1.7rem;
