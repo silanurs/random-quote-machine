@@ -1,5 +1,6 @@
 # Random Quote Machine
 This is a simple web application that displays a random quote and its author on every button click. The application is built using React and CSS, and it fetches quotes from an API.
+Live Demo :  https://silanurs.github.io/random-quote-machine/
 
 # Installation
 * 1-Clone the repository to your local machine using git clone https://github.com/silanurs/random-quote-machine.git
